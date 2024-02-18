@@ -1,0 +1,31 @@
+{
+  "name": "colorify",
+  "version": "1.0.0",
+  "description": " A library to colorify your logs and texts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  
+    "repository": {
+      "type": "git",
+      "url" : "git+https://github.com/Amitesh-tiwari/colorify-text_logs.git"
+
+    },
+
+  "keywords": ["console logs colors", "Colorify your logs"],
+  "author": "Amitesh Tiwari <amiteshtiwari057@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url" : "https://github.com/Amitesh-tiwari/colorify-text_logs/issues"
+  },
+  "homepage": "https://github.com/Amitesh-tiwari/colorify-text_logs#readme",
+
+  "devDependencies": {
+    "typescript":"^4.6.3"
+  },
+
+  "files": ["/lib/**/*"]
+}
